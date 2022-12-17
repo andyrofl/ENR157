@@ -1,0 +1,129 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2022  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 21.1.1 Build 850 06/23/2022 SJ Lite Edition
+# Date created = 09:23:05  November 29, 2022
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Microwave_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Intel recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX 10"
+set_global_assignment -name DEVICE 10M50DAF484C7G
+set_global_assignment -name TOP_LEVEL_ENTITY Microwave_Simulator
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 21.1.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "09:23:05  NOVEMBER 29, 2022"
+set_global_assignment -name LAST_QUARTUS_VERSION "21.1.1 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_P11 -to CLOCK
+set_location_assignment PIN_C14 -to POWER0_0
+set_location_assignment PIN_E15 -to POWER0_1
+set_location_assignment PIN_C15 -to POWER0_2
+set_location_assignment PIN_C16 -to POWER0_3
+set_location_assignment PIN_E16 -to POWER0_4
+set_location_assignment PIN_D17 -to POWER0_5
+set_location_assignment PIN_C17 -to POWER0_6
+set_location_assignment PIN_D15 -to POWER0_7
+set_location_assignment PIN_C18 -to POWER1_0
+set_location_assignment PIN_D18 -to POWER1_1
+set_location_assignment PIN_E18 -to POWER1_2
+set_location_assignment PIN_B16 -to POWER1_3
+set_location_assignment PIN_A17 -to POWER1_4
+set_location_assignment PIN_A18 -to POWER1_5
+set_location_assignment PIN_B17 -to POWER1_6
+set_location_assignment PIN_A16 -to POWER1_7
+set_location_assignment PIN_B20 -to POWER2_0
+set_location_assignment PIN_A20 -to POWER2_1
+set_location_assignment PIN_B19 -to POWER2_2
+set_location_assignment PIN_A21 -to POWER2_3
+set_location_assignment PIN_B21 -to POWER2_4
+set_location_assignment PIN_C22 -to POWER2_5
+set_location_assignment PIN_B22 -to POWER2_6
+set_location_assignment PIN_A19 -to POWER2_7
+set_location_assignment PIN_J20 -to TIMER5_0
+set_location_assignment PIN_L19 -to TIMER5_7
+set_location_assignment PIN_N20 -to TIMER5_6
+set_location_assignment PIN_N19 -to TIMER5_5
+set_location_assignment PIN_M20 -to TIMER5_4
+set_location_assignment PIN_N18 -to TIMER5_3
+set_location_assignment PIN_L18 -to TIMER5_2
+set_location_assignment PIN_K20 -to TIMER5_1
+set_location_assignment PIN_F17 -to TIMER4_7
+set_location_assignment PIN_F20 -to TIMER4_6
+set_location_assignment PIN_F19 -to TIMER4_5
+set_location_assignment PIN_H19 -to TIMER4_4
+set_location_assignment PIN_J18 -to TIMER4_3
+set_location_assignment PIN_E19 -to TIMER4_2
+set_location_assignment PIN_E20 -to TIMER4_1
+set_location_assignment PIN_F18 -to TIMER4_0
+set_location_assignment PIN_B8 -to KEY0_START
+set_location_assignment PIN_A7 -to KEY1_STOP
+set_location_assignment PIN_A9 -to led_done
+set_location_assignment PIN_A8 -to led_ovenlight
+set_location_assignment PIN_A10 -to table_on
+set_location_assignment PIN_C10 -to SW0_DOORCLOSED
+set_location_assignment PIN_F15 -to SW9_40SEC
+set_location_assignment PIN_B14 -to SW8_20SEC
+set_location_assignment PIN_A14 -to SW7_10SEC
+set_location_assignment PIN_A13 -to SW6_8SEC
+set_location_assignment PIN_B12 -to SW5_4SEC
+set_location_assignment PIN_A12 -to SW4_2SEC
+set_location_assignment PIN_C12 -to SW3_80POWER
+set_location_assignment PIN_D12 -to SW2_40POWER
+set_location_assignment PIN_C11 -to SW1_20POWER
+set_location_assignment PIN_B10 -to LED3
+set_location_assignment PIN_D13 -to LED4
+set_location_assignment PIN_C13 -to LED5
+set_location_assignment PIN_E14 -to LED6
+set_location_assignment PIN_B11 -to microwave_on
+set_location_assignment PIN_AA6 -to GPIO_ovenlight
+set_location_assignment PIN_AB3 -to MICROWAVE_GPIO
+set_location_assignment PIN_AA7 -to SPEAKER_GPIO
+set_global_assignment -name QSYS_FILE unnamed.qsys
+set_global_assignment -name VHDL_FILE table_controller.vhd
+set_global_assignment -name VHDL_FILE PWM_Generator.vhd
+set_global_assignment -name VHDL_FILE Microwave.vhd
+set_global_assignment -name BDF_FILE Microwave_Simulator.bdf
+set_global_assignment -name VHDL_FILE output_files/clock_divider.vhd
+set_global_assignment -name VHDL_FILE microwave_state.vhd
+set_global_assignment -name VHDL_FILE 130_controller.vhd
+set_location_assignment PIN_AA2 -to GPIO_table
+set_location_assignment PIN_N14 -to CLOCK2
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

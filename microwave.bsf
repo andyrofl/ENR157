@@ -1,0 +1,289 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2022  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 336 496)
+	(text "microwave" (rect 5 0 58 12)(font "Arial" ))
+	(text "inst" (rect 8 416 25 428)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "power_20" (rect 0 0 46 12)(font "Arial" ))
+		(text "power_20" (rect 21 27 67 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "power_40" (rect 0 0 46 12)(font "Arial" ))
+		(text "power_40" (rect 21 43 67 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "power_80" (rect 0 0 46 12)(font "Arial" ))
+		(text "power_80" (rect 21 59 67 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "time_2" (rect 0 0 33 12)(font "Arial" ))
+		(text "time_2" (rect 21 75 54 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "time_4" (rect 0 0 33 12)(font "Arial" ))
+		(text "time_4" (rect 21 91 54 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "time_8" (rect 0 0 33 12)(font "Arial" ))
+		(text "time_8" (rect 21 107 54 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "time_10" (rect 0 0 38 12)(font "Arial" ))
+		(text "time_10" (rect 21 123 59 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "time_20" (rect 0 0 38 12)(font "Arial" ))
+		(text "time_20" (rect 21 139 59 151)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "time_40" (rect 0 0 38 12)(font "Arial" ))
+		(text "time_40" (rect 21 155 59 167)(font "Arial" ))
+		(line (pt 0 160)(pt 16 160))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "clk" (rect 0 0 14 12)(font "Arial" ))
+		(text "clk" (rect 21 171 35 183)(font "Arial" ))
+		(line (pt 0 176)(pt 16 176))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "STATE_RUNNING" (rect 0 0 92 12)(font "Arial" ))
+		(text "STATE_RUNNING" (rect 21 187 113 199)(font "Arial" ))
+		(line (pt 0 192)(pt 16 192))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "STATE_READY" (rect 0 0 77 12)(font "Arial" ))
+		(text "STATE_READY" (rect 21 203 98 215)(font "Arial" ))
+		(line (pt 0 208)(pt 16 208))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "STATE_RESET" (rect 0 0 74 12)(font "Arial" ))
+		(text "STATE_RESET" (rect 21 219 95 231)(font "Arial" ))
+		(line (pt 0 224)(pt 16 224))
+	)
+	(port
+		(pt 272 32)
+		(output)
+		(text "POWER02_1" (rect 0 0 64 12)(font "Arial" ))
+		(text "POWER02_1" (rect 197 27 251 39)(font "Arial" ))
+		(line (pt 272 32)(pt 256 32))
+	)
+	(port
+		(pt 272 48)
+		(output)
+		(text "POWER02_2" (rect 0 0 64 12)(font "Arial" ))
+		(text "POWER02_2" (rect 197 43 251 55)(font "Arial" ))
+		(line (pt 272 48)(pt 256 48))
+	)
+	(port
+		(pt 272 64)
+		(output)
+		(text "POWER02_4" (rect 0 0 64 12)(font "Arial" ))
+		(text "POWER02_4" (rect 197 59 251 71)(font "Arial" ))
+		(line (pt 272 64)(pt 256 64))
+	)
+	(port
+		(pt 272 80)
+		(output)
+		(text "POWER02_8" (rect 0 0 64 12)(font "Arial" ))
+		(text "POWER02_8" (rect 197 75 251 87)(font "Arial" ))
+		(line (pt 272 80)(pt 256 80))
+	)
+	(port
+		(pt 272 96)
+		(output)
+		(text "POWER01_1" (rect 0 0 64 12)(font "Arial" ))
+		(text "POWER01_1" (rect 197 91 251 103)(font "Arial" ))
+		(line (pt 272 96)(pt 256 96))
+	)
+	(port
+		(pt 272 112)
+		(output)
+		(text "POWER01_2" (rect 0 0 64 12)(font "Arial" ))
+		(text "POWER01_2" (rect 197 107 251 119)(font "Arial" ))
+		(line (pt 272 112)(pt 256 112))
+	)
+	(port
+		(pt 272 128)
+		(output)
+		(text "POWER01_4" (rect 0 0 64 12)(font "Arial" ))
+		(text "POWER01_4" (rect 197 123 251 135)(font "Arial" ))
+		(line (pt 272 128)(pt 256 128))
+	)
+	(port
+		(pt 272 144)
+		(output)
+		(text "POWER01_8" (rect 0 0 64 12)(font "Arial" ))
+		(text "POWER01_8" (rect 197 139 251 151)(font "Arial" ))
+		(line (pt 272 144)(pt 256 144))
+	)
+	(port
+		(pt 272 160)
+		(output)
+		(text "POWER00_1" (rect 0 0 64 12)(font "Arial" ))
+		(text "POWER00_1" (rect 197 155 251 167)(font "Arial" ))
+		(line (pt 272 160)(pt 256 160))
+	)
+	(port
+		(pt 272 176)
+		(output)
+		(text "POWER00_2" (rect 0 0 64 12)(font "Arial" ))
+		(text "POWER00_2" (rect 197 171 251 183)(font "Arial" ))
+		(line (pt 272 176)(pt 256 176))
+	)
+	(port
+		(pt 272 192)
+		(output)
+		(text "POWER00_4" (rect 0 0 64 12)(font "Arial" ))
+		(text "POWER00_4" (rect 197 187 251 199)(font "Arial" ))
+		(line (pt 272 192)(pt 256 192))
+	)
+	(port
+		(pt 272 208)
+		(output)
+		(text "POWER00_8" (rect 0 0 64 12)(font "Arial" ))
+		(text "POWER00_8" (rect 197 203 251 215)(font "Arial" ))
+		(line (pt 272 208)(pt 256 208))
+	)
+	(port
+		(pt 272 224)
+		(output)
+		(text "TIMER05_1" (rect 0 0 56 12)(font "Arial" ))
+		(text "TIMER05_1" (rect 204 219 251 231)(font "Arial" ))
+		(line (pt 272 224)(pt 256 224))
+	)
+	(port
+		(pt 272 240)
+		(output)
+		(text "TIMER05_2" (rect 0 0 56 12)(font "Arial" ))
+		(text "TIMER05_2" (rect 204 235 251 247)(font "Arial" ))
+		(line (pt 272 240)(pt 256 240))
+	)
+	(port
+		(pt 272 256)
+		(output)
+		(text "TIMER05_4" (rect 0 0 56 12)(font "Arial" ))
+		(text "TIMER05_4" (rect 204 251 251 263)(font "Arial" ))
+		(line (pt 272 256)(pt 256 256))
+	)
+	(port
+		(pt 272 272)
+		(output)
+		(text "TIMER05_8" (rect 0 0 56 12)(font "Arial" ))
+		(text "TIMER05_8" (rect 204 267 251 279)(font "Arial" ))
+		(line (pt 272 272)(pt 256 272))
+	)
+	(port
+		(pt 272 288)
+		(output)
+		(text "TIMER04_1" (rect 0 0 56 12)(font "Arial" ))
+		(text "TIMER04_1" (rect 204 283 251 295)(font "Arial" ))
+		(line (pt 272 288)(pt 256 288))
+	)
+	(port
+		(pt 272 304)
+		(output)
+		(text "TIMER04_2" (rect 0 0 56 12)(font "Arial" ))
+		(text "TIMER04_2" (rect 204 299 251 311)(font "Arial" ))
+		(line (pt 272 304)(pt 256 304))
+	)
+	(port
+		(pt 272 320)
+		(output)
+		(text "TIMER04_4" (rect 0 0 56 12)(font "Arial" ))
+		(text "TIMER04_4" (rect 204 315 251 327)(font "Arial" ))
+		(line (pt 272 320)(pt 256 320))
+	)
+	(port
+		(pt 272 336)
+		(output)
+		(text "TIMER04_8" (rect 0 0 56 12)(font "Arial" ))
+		(text "TIMER04_8" (rect 204 331 251 343)(font "Arial" ))
+		(line (pt 272 336)(pt 256 336))
+	)
+	(port
+		(pt 272 352)
+		(output)
+		(text "TABLE_ON" (rect 0 0 55 12)(font "Arial" ))
+		(text "TABLE_ON" (rect 205 347 251 359)(font "Arial" ))
+		(line (pt 272 352)(pt 256 352))
+	)
+	(port
+		(pt 104 0)
+		(output)
+		(text "MICROWAVE_ON" (rect 0 0 90 12)(font "Arial" ))
+		(text "MICROWAVE_ON" (rect 96 23 108 113)(font "Arial" )(vertical))
+		(line (pt 104 0)(pt 104 16))
+	)
+	(port
+		(pt 272 384)
+		(output)
+		(text "LED_DONE" (rect 0 0 59 12)(font "Arial" ))
+		(text "LED_DONE" (rect 202 379 251 391)(font "Arial" ))
+		(line (pt 272 384)(pt 256 384))
+	)
+	(port
+		(pt 272 400)
+		(output)
+		(text "STATE_REJECT" (rect 0 0 81 12)(font "Arial" ))
+		(text "STATE_REJECT" (rect 183 395 251 407)(font "Arial" ))
+		(line (pt 272 400)(pt 256 400))
+	)
+	(drawing
+		(rectangle (rect 16 16 256 416))
+	)
+)
