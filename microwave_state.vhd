@@ -4,7 +4,7 @@ use IEEE.STD_LOGIC_1164.all;
 use IEEE.STD_LOGIC_unsigned.all;
 
 -- Entity Declaration --
-entity microwave_state is
+entity state_module is
 	port(
 		start_switch : in STD_LOGIC;
 		stop_switch : in STD_LOGIC;
@@ -13,12 +13,11 @@ entity microwave_state is
 		reject_condition : in STD_LOGIC;
 		RUNNING_STATE :out bit:='0';
 		READY_STATE : out bit:='0';
-		RESET_STATE : out bit:='0'
-		);
-end microwave_state;
+		RESET_STATE : out bit:='0');
+end state_module;
 
 
-architecture state_machine of microwave_state is
+architecture module of state_module is
 shared variable paused, reset_clear, is_running, door_toggle :bit;
 --shared variable paused:bit:='1';
 begin
@@ -48,4 +47,4 @@ process(start_switch, stop_switch, door_switch, done_condition, reject_condition
 	end if;
 	
 end process;
-end state_machine;
+end module;

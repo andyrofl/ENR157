@@ -1,0 +1,12 @@
+/.qsys_edit
+/db/
+/incremental_db/
+/output_files/
+Microwave_Simulator.bdf
+*.bak
+*.rpt
+*.qar
+*.qarlog
+*.docx
+*.jpg
+*.pdf

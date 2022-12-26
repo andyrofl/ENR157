@@ -1,0 +1,163 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2022  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 264 256)
+	(text "power_module" (rect 5 0 62 12)(font "Arial" ))
+	(text "inst" (rect 8 224 20 236)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "power_20" (rect 0 0 38 12)(font "Arial" ))
+		(text "power_20" (rect 21 27 59 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "power_40" (rect 0 0 40 12)(font "Arial" ))
+		(text "power_40" (rect 21 43 61 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "power_80" (rect 0 0 38 12)(font "Arial" ))
+		(text "power_80" (rect 21 59 59 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "clk" (rect 0 0 10 12)(font "Arial" ))
+		(text "clk" (rect 21 75 31 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "STATE_RUNNING" (rect 0 0 84 12)(font "Arial" ))
+		(text "STATE_RUNNING" (rect 21 91 105 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "STATE_READY" (rect 0 0 76 12)(font "Arial" ))
+		(text "STATE_READY" (rect 21 107 97 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 1))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "STATE_RESET" (rect 0 0 73 12)(font "Arial" ))
+		(text "STATE_RESET" (rect 21 123 94 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 1))
+	)
+	(port
+		(pt 248 32)
+		(output)
+		(text "POWER02_1" (rect 0 0 57 12)(font "Arial" ))
+		(text "POWER02_1" (rect 170 27 227 39)(font "Arial" ))
+		(line (pt 248 32)(pt 232 32)(line_width 1))
+	)
+	(port
+		(pt 248 48)
+		(output)
+		(text "POWER02_2" (rect 0 0 59 12)(font "Arial" ))
+		(text "POWER02_2" (rect 168 43 227 55)(font "Arial" ))
+		(line (pt 248 48)(pt 232 48)(line_width 1))
+	)
+	(port
+		(pt 248 64)
+		(output)
+		(text "POWER02_4" (rect 0 0 60 12)(font "Arial" ))
+		(text "POWER02_4" (rect 167 59 227 71)(font "Arial" ))
+		(line (pt 248 64)(pt 232 64)(line_width 1))
+	)
+	(port
+		(pt 248 80)
+		(output)
+		(text "POWER02_8" (rect 0 0 59 12)(font "Arial" ))
+		(text "POWER02_8" (rect 168 75 227 87)(font "Arial" ))
+		(line (pt 248 80)(pt 232 80)(line_width 1))
+	)
+	(port
+		(pt 248 96)
+		(output)
+		(text "POWER01_1" (rect 0 0 56 12)(font "Arial" ))
+		(text "POWER01_1" (rect 171 91 227 103)(font "Arial" ))
+		(line (pt 248 96)(pt 232 96)(line_width 1))
+	)
+	(port
+		(pt 248 112)
+		(output)
+		(text "POWER01_2" (rect 0 0 57 12)(font "Arial" ))
+		(text "POWER01_2" (rect 170 107 227 119)(font "Arial" ))
+		(line (pt 248 112)(pt 232 112)(line_width 1))
+	)
+	(port
+		(pt 248 128)
+		(output)
+		(text "POWER01_4" (rect 0 0 59 12)(font "Arial" ))
+		(text "POWER01_4" (rect 168 123 227 135)(font "Arial" ))
+		(line (pt 248 128)(pt 232 128)(line_width 1))
+	)
+	(port
+		(pt 248 144)
+		(output)
+		(text "POWER01_8" (rect 0 0 57 12)(font "Arial" ))
+		(text "POWER01_8" (rect 170 139 227 151)(font "Arial" ))
+		(line (pt 248 144)(pt 232 144)(line_width 1))
+	)
+	(port
+		(pt 248 160)
+		(output)
+		(text "POWER00_1" (rect 0 0 57 12)(font "Arial" ))
+		(text "POWER00_1" (rect 170 155 227 167)(font "Arial" ))
+		(line (pt 248 160)(pt 232 160)(line_width 1))
+	)
+	(port
+		(pt 248 176)
+		(output)
+		(text "POWER00_2" (rect 0 0 59 12)(font "Arial" ))
+		(text "POWER00_2" (rect 168 171 227 183)(font "Arial" ))
+		(line (pt 248 176)(pt 232 176)(line_width 1))
+	)
+	(port
+		(pt 248 192)
+		(output)
+		(text "POWER00_4" (rect 0 0 60 12)(font "Arial" ))
+		(text "POWER00_4" (rect 167 187 227 199)(font "Arial" ))
+		(line (pt 248 192)(pt 232 192)(line_width 1))
+	)
+	(port
+		(pt 248 208)
+		(output)
+		(text "POWER00_8" (rect 0 0 59 12)(font "Arial" ))
+		(text "POWER00_8" (rect 168 203 227 215)(font "Arial" ))
+		(line (pt 248 208)(pt 232 208)(line_width 1))
+	)
+	(drawing
+		(rectangle (rect 16 16 232 224)(line_width 1))
+	)
+)
